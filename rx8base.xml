@@ -365,7 +365,7 @@
             <scaling expression="x * 1-0" to_byte="( x + 0 ) / 1" format="0.0" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Fuelling" category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="9">
+        <table name="Fuelling - Safe Mode" category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="9">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.0" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -377,7 +377,7 @@
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.0" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Fuelling 2" category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="9">
+        <table name="Fuelling 2 - Safe Mode" category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="9">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.0" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -1657,7 +1657,7 @@
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Ignition Leading" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="10" sizey="7">
+        <table name="Ignition Timing Lead" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="10" sizey="7">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
@@ -1667,12 +1667,12 @@
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Ignition Leading 2" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Ignition Leading Base - Safe Mode" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Ignition Leading 3" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Ignition Leading Base" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
@@ -1687,7 +1687,7 @@
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Ignition 0" category="Ignition" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Ignition 0 - Safe Mode" category="Ignition" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
@@ -1802,12 +1802,12 @@
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Fuelling 9" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
+        <table name="Fuelling 9 - Safe Mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Fuelling 10" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
+        <table name="Fuelling 10 - Safe Mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
@@ -1822,12 +1822,12 @@
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Fuelling 13" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
+        <table name="Fuelling 13 - Safe Mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Fuelling 14" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
+        <table name="Fuelling 14 - Safe mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
@@ -2567,7 +2567,7 @@
         <table name="Table 2D - 85 " storageaddress="0x071B08">
             <table type="Y Axis" storageaddress="0x071AE0" />
         </table>
-        <table name="Fuelling" storageaddress="0x071CD0">
+        <table name="Fuelling - Safe Mode" storageaddress="0x071CD0">
             <table type="Y Axis" storageaddress="0x071CAC" />
         </table>
         <table name="Fuelling 0" storageaddress="0x071CE0">
@@ -2576,7 +2576,7 @@
         <table name="Fuelling 1" storageaddress="0x071D00">
             <table type="Y Axis" storageaddress="0x071CE4" />
         </table>
-        <table name="Fuelling 2" storageaddress="0x071D2C">
+        <table name="Fuelling 2 - Safe Mode" storageaddress="0x071D2C">
             <table type="Y Axis" storageaddress="0x071D08" />
         </table>
         <table name="Fuelling 3" storageaddress="0x071D5C">
@@ -3537,7 +3537,7 @@
             <table type="X Axis" storageaddress="0x06D47C" />
             <table type="Y Axis" storageaddress="0x06D4BC" />
         </table>
-        <table name="Ignition Leading" storageaddress="0x06D668">
+        <table name="Ignition Timing Lead" storageaddress="0x06D668">
             <table type="X Axis" storageaddress="0x06D624" />
             <table type="Y Axis" storageaddress="0x06D64C" />
         </table>
@@ -3545,11 +3545,11 @@
             <table type="X Axis" storageaddress="0x06D6B0" />
             <table type="Y Axis" storageaddress="0x06D700" />
         </table>
-        <table name="Ignition Leading 2" storageaddress="0x06D948">
+        <table name="Ignition Leading Base - Safe Mode" storageaddress="0x06D948">
             <table type="X Axis" storageaddress="0x06D8B0" />
             <table type="Y Axis" storageaddress="0x06D900" />
         </table>
-        <table name="Ignition Leading 3" storageaddress="0x06DB48">
+        <table name="Ignition Leading Base" storageaddress="0x06DB48">
             <table type="X Axis" storageaddress="0x06DAB0" />
             <table type="Y Axis" storageaddress="0x06DB00" />
         </table>
@@ -3561,7 +3561,7 @@
             <table type="X Axis" storageaddress="0x06DD3C" />
             <table type="Y Axis" storageaddress="0x06DD8C" />
         </table>
-        <table name="Ignition 0" storageaddress="0x06DFD4">
+        <table name="Ignition 0 - Safe Mode" storageaddress="0x06DFD4">
             <table type="X Axis" storageaddress="0x06DF3C" />
             <table type="Y Axis" storageaddress="0x06DF8C" />
         </table>
@@ -3653,11 +3653,11 @@
             <table type="X Axis" storageaddress="0x0712BC" />
             <table type="Y Axis" storageaddress="0x0712F0" />
         </table>
-        <table name="Fuelling 9" storageaddress="0x07228C">
+        <table name="Fuelling 9 - Safe Mode" storageaddress="0x07228C">
             <table type="X Axis" storageaddress="0x07223C" />
             <table type="Y Axis" storageaddress="0x07226C" />
         </table>
-        <table name="Fuelling 10" storageaddress="0x07238C">
+        <table name="Fuelling 10 - Safe Mode" storageaddress="0x07238C">
             <table type="X Axis" storageaddress="0x0722EC" />
             <table type="Y Axis" storageaddress="0x072340" />
         </table>
@@ -3669,11 +3669,11 @@
             <table type="X Axis" storageaddress="0x072528" />
             <table type="Y Axis" storageaddress="0x07252C" />
         </table>
-        <table name="Fuelling 13" storageaddress="0x072584">
+        <table name="Fuelling 13 - Safe Mode" storageaddress="0x072584">
             <table type="X Axis" storageaddress="0x072534" />
             <table type="Y Axis" storageaddress="0x072564" />
         </table>
-        <table name="Fuelling 14" storageaddress="0x072684">
+        <table name="Fuelling 14 - Safe mode" storageaddress="0x072684">
             <table type="X Axis" storageaddress="0x0725E4" />
             <table type="Y Axis" storageaddress="0x072638" />
         </table>
