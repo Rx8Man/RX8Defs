@@ -21,11 +21,11 @@
         <table name="Maximum Throttle Angle" category="Limiters" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Auxillary Valve Close" category="Outputs" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="2" />
         <table name="VDI Open" category="Outputs" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="2" />
-        <table name="Closed Loop Fuelling Threshold (Engine Speed)" category="Fuel Target" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="Closed Loop Fuelling Threshold (Temperature A)" category="Fuel Target" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="Closed Loop Fuelling Threshold (Temperature B)" category="Fuel Target" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="Closed Loop Fuelling Threshold (Unknown)" category="Fuel Target" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="Closed Loop Fuelling Threshold (Temperature C)" category="Fuel Target" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Closed Loop Fuelling Threshold (Engine Speed)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Closed Loop Fuelling Threshold (Temperature A)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Closed Loop Fuelling Threshold (Temperature B)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Closed Loop Fuelling Threshold (Unknown)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Closed Loop Fuelling Threshold (Temperature C)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Table 2D - 0 " category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="16">
             <scaling expression="x * 2-0" to_byte="( x + 0 ) / 2" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
@@ -370,47 +370,47 @@
             <scaling expression="x * 1-0" to_byte="( x + 0 ) / 1" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Open Loop Fuelling Base Correction (Throttle) - Safe Mode" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="9">
+        <table name="Open Loop Fuelling Base Correction (Throttle) - Safe Mode" category="Fuel Target (Open Loop)" type="2D" storagetype="uint8" endian="big" sizey="9">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Open Loop Fuelling Base Correction (Throttle)" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="1">
+        <table name="Open Loop Fuelling Base Correction (Throttle)" category="Fuel Target (Open Loop)" type="2D" storagetype="uint8" endian="big" sizey="1">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Open Loop Temperature Correction #A" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="7">
+        <table name="Open Loop Temperature Correction #A" category="Fuel Target (Open Loop)" type="2D" storagetype="uint8" endian="big" sizey="7">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Open Loop Fuelling Rich Limit - Safe Mode" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="9">
+        <table name="Open Loop Fuelling Rich Limit - Safe Mode" category="Fuel Target (Open Loop)" type="2D" storagetype="uint8" endian="big" sizey="9">
             <scaling expression="(1 / ( (x * 0.007812) + 1 )) * 14.7" to_byte="(14.7-x) / (0.007812*x)" format="0.000" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Open Loop Fuelling Rich Limit" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="9">
+        <table name="Open Loop Fuelling Rich Limit" category="Fuel Target (Open Loop)" type="2D" storagetype="uint8" endian="big" sizey="9">
             <scaling expression="(1 / ( (x * 0.007812) + 1 )) * 14.7" to_byte="(14.7-x) / (0.007812*x)" format="0.000" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Open Loop Temperature Correction #B" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="7">
+        <table name="Open Loop Temperature Correction #B" category="Fuel Target (Open Loop)" type="2D" storagetype="uint8" endian="big" sizey="7">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Engine Load A)" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="18">
+        <table name="Closed Loop Fuelling Threshold (Engine Load A)" category="Fuel Target (Closed Loop)" type="2D" storagetype="uint8" endian="big" sizey="18">
             <scaling expression="x * 0.003906-0" to_byte="( x + 0 ) / 0.003906" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Engine Load B)" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="18">
+        <table name="Closed Loop Fuelling Threshold (Engine Load B)" category="Fuel Target (Closed Loop)" type="2D" storagetype="uint8" endian="big" sizey="18">
             <scaling expression="x * 0.003906-0" to_byte="( x + 0 ) / 0.003906" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Engine Load C)" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="18">
+        <table name="Closed Loop Fuelling Threshold (Engine Load C)" category="Fuel Target (Closed Loop)" type="2D" storagetype="uint8" endian="big" sizey="18">
             <scaling expression="x * 0.003906-0" to_byte="( x + 0 ) / 0.003906" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Unknown)" category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="12">
+        <table name="Closed Loop Fuelling Threshold (Unknown)" category="Fuel Target (Closed Loop)" type="2D" storagetype="uint8" endian="big" sizey="12">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Throttle Position) " category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="19">
+        <table name="Closed Loop Fuelling Threshold (Throttle Position) " category="Misc" type="2D" storagetype="uint8" endian="big" sizey="19">
             <scaling expression="x * 0.5-0" to_byte="( x + 0 ) / 0.5" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -438,7 +438,7 @@
             <scaling expression="x * 0.005-0" to_byte="( x + 0 ) / 0.005" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Fuelling 8" category="Fuel Target" type="2D" storagetype="uint8" endian="big" sizey="7">
+        <table name="Fuelling 8" category="Fuel Target (Open Loop)" type="2D" storagetype="uint8" endian="big" sizey="7">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -1807,42 +1807,42 @@
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling Base (Throttle)- Safe Mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
+        <table name="Open Loop Fuelling Base (Throttle)- Safe Mode" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling Base (Engine Load) - Safe Mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
+        <table name="Open Loop Fuelling Base (Engine Load) - Safe Mode" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling Base (Throttle)" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="1" sizey="1">
+        <table name="Open Loop Fuelling Base (Throttle)" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="1" sizey="1">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling Base (Engine Load)" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="1" sizey="1">
+        <table name="Open Loop Fuelling Base (Engine Load)" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="1" sizey="1">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling Lean Limit (Throttle Based) - Safe Mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
+        <table name="Open Loop Fuelling Lean Limit (Throttle Based) - Safe Mode" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling - Safe mode" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
+        <table name="Open Loop Fuelling - Safe mode" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling Lean Limit (Throttle Based)" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
+        <table name="Open Loop Fuelling Lean Limit (Throttle Based)" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="12" sizey="8">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
         </table>
-        <table name="Open Loop Fuelling" category="Fuel Target" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
+        <table name="Open Loop Fuelling" category="Fuel Target (Open Loop)" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="21" sizey="19">
             <scaling expression="(1 / ( (x * 0.003906) + 1 )) * 14.7" to_byte="(14.7-x) / (0.003906*x)" format="0.000" />
             <table type="X Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
             <table type="Y Axis" storagetype="float" endian="big" />
