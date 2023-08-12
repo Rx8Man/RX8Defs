@@ -24,7 +24,7 @@
         <table name="Closed Loop Fuelling Threshold (Engine Speed)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Closed Loop Fuelling Threshold (Temperature A)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Closed Loop Fuelling Threshold (Temperature B)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="Closed Loop Fuelling Threshold (Unknown)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Closed Loop Fuelling Threshold (Unknown B)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Closed Loop Fuelling Threshold (Temperature C)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Table 2D - 0 " category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="16">
             <scaling expression="x * 2-0" to_byte="( x + 0 ) / 2" format="0.00" />
@@ -406,7 +406,7 @@
             <scaling expression="x * 0.003906-0" to_byte="( x + 0 ) / 0.003906" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Unknown)" category="Fuel Target (Closed Loop)" type="2D" storagetype="uint8" endian="big" sizey="12">
+        <table name="Closed Loop Fuelling Threshold (Unknown A)" category="Fuel Target (Closed Loop)" type="2D" storagetype="uint8" endian="big" sizey="12">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -2317,7 +2317,7 @@
         <table name="Closed Loop Fuelling Threshold (Engine Speed)" storageaddress="0x071BF8" />
         <table name="Closed Loop Fuelling Threshold (Temperature A)" storageaddress="0x071BD8" />
         <table name="Closed Loop Fuelling Threshold (Temperature B)" storageaddress="0x071BE0" />
-        <table name="Closed Loop Fuelling Threshold (Unknown)" storageaddress="0x071C5C" />
+        <table name="Closed Loop Fuelling Threshold (Unknown B)" storageaddress="0x071C5C" />
         <table name="Closed Loop Fuelling Threshold (Temperature C)" storageaddress="0x071C9C" />
         <table name="Table 2D - 0 " storageaddress="0x06CFE4">
             <table type="Y Axis" storageaddress="0x06CFA4" />
@@ -2604,7 +2604,7 @@
         <table name="Closed Loop Fuelling Threshold (Engine Load C)" storageaddress="0x071E8C">
             <table type="Y Axis" storageaddress="0x071E44" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Unknown)" storageaddress="0x071ED0">
+        <table name="Closed Loop Fuelling Threshold (Unknown A)" storageaddress="0x071ED0">
             <table type="Y Axis" storageaddress="0x071EA0" />
         </table>
         <table name="Closed Loop Fuelling Threshold (Throttle Position) " storageaddress="0x071F28">
