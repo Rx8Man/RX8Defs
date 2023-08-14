@@ -11,4 +11,4 @@ If you found any of this work useful and would like to support me https://www.bu
 - N3ZGEC 2004 EU 4 Port MT
 
 60E0FC00
-- N3Z2EB 2004 US 6 Port MT
+- N3Z2EU 2004 US 6 Port MT
