@@ -1214,7 +1214,7 @@
             <scaling expression="x * 1-0" to_byte="( x + 0 ) / 1" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Injector Barometric Pressure Compensation" category="Fuel Injection" type="2D" storagetype="float" endian="big" sizey="4">
+        <table name="Lamda Sensor Barometric Pressure Compensation" category="Fuel Injection" type="2D" storagetype="float" endian="big" sizey="4">
             <scaling expression="x * 1-0" to_byte="( x + 0 ) / 1" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -3726,7 +3726,7 @@
         <table name="Table 2D - 296 Check DataType" storageaddress="0x06FD20">
             <table type="Y Axis" storageaddress="0x06FD00" />
         </table>
-        <table name="Injector Barometric Pressure Compensation" storageaddress="0x06FD38">
+        <table name="Lamda Sensor Barometric Pressure Compensation" storageaddress="0x06FD38">
             <table type="Y Axis" storageaddress="0x06FD28" />
         </table>
         <table name="Lambda Sensor Scaling" storageaddress="0x06FD74">
@@ -5486,7 +5486,7 @@
         <table name="Table 2D - 296 Check DataType" storageaddress="0x06F864">
             <table type="Y Axis" storageaddress="0x06F844" />
         </table>
-        <table name="Injector Barometric Pressure Compensation" storageaddress="0x06F87C">
+        <table name="Lamda Sensor Barometric Pressure Compensation" storageaddress="0x06F87C">
             <table type="Y Axis" storageaddress="0x06F86C" />
         </table>
         <table name="Lambda Sensor Scaling" storageaddress="0x06F8B8">
