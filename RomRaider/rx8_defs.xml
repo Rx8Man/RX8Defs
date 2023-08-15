@@ -410,7 +410,7 @@
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Closed Loop Fuelling Threshold (Throttle Position) " category="Misc" type="2D" storagetype="uint8" endian="big" sizey="19">
+        <table name="Closed Loop Fuelling Threshold (Throttle Position) " category="Fuel Target (Closed Loop)" type="2D" storagetype="uint8" endian="big" sizey="19">
             <scaling expression="x * 0.5-0" to_byte="( x + 0 ) / 0.5" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
