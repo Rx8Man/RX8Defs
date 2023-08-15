@@ -54,15 +54,15 @@
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Ignition Timing Leading Idle Temperature Correction" category="Ignition Leading" type="2D" storagetype="uint8" endian="big" sizey="9">
+        <table name="Ignition Timing Leading Idle Temperature Correction Multiplier" category="Ignition Leading" type="2D" storagetype="uint8" endian="big" sizey="9">
             <scaling expression="x * 0.01-0" to_byte="( x + 0 ) / 0.01" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Ignition Timing Unknown Idle Base" category="Ignition Unknown" type="2D" storagetype="uint8" endian="big" sizey="6">
+        <table name="Ignition Timing Trailing Idle Base" category="Ignition Trailing" type="2D" storagetype="uint8" endian="big" sizey="6">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Ignition Timing Unknown Idle Temperature Correction" category="Ignition Unknown" type="2D" storagetype="uint8" endian="big" sizey="9">
+        <table name="Ignition Timing Trailing Idle Temperature Correction Multiplier" category="Ignition Trailing" type="2D" storagetype="uint8" endian="big" sizey="9">
             <scaling expression="x * 0.01-0" to_byte="( x + 0 ) / 0.01" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -666,11 +666,11 @@
             <scaling expression="x * 1-0" to_byte="( x + 0 ) / 1" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Table 2D - 160 " category="Unknown 2D" type="2D" storagetype="uint16" endian="big" sizey="18">
+        <table name="Table 2D - 160 " category="Ignition Leading" type="2D" storagetype="uint16" endian="big" sizey="18">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Table 2D - 161 " category="Unknown 2D" type="2D" storagetype="uint16" endian="big" sizey="9">
+        <table name="Table 2D - 161 " category="Ignition Leading" type="2D" storagetype="uint16" endian="big" sizey="9">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -1678,7 +1678,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Timing Leading Idle Temperature Adder" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="10" sizey="7">
+        <table name="Ignition Timing Leading Idle Temperature Compensation" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="10" sizey="7">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Engine Speed" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -1714,7 +1714,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Timing Unknown Idle Temperature Adder" category="Ignition Unknown" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="10" sizey="7">
+        <table name="Ignition Timing Trailing Idle Temperature Compensation" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="10" sizey="7">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Engine Speed" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -1723,7 +1723,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Unknown Base" category="Ignition Unknown" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Ignition Timing Trailing Base" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -1732,7 +1732,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Unknown Advance - Safe Mode" category="Ignition Unknown" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Ignition Timing Trailing Advance - Safe Mode" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -1741,7 +1741,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Unknown Advance" category="Ignition Unknown" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Ignition Timing Trailing Advance" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -1777,7 +1777,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Trailing B" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Table 3D - 15" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -1786,7 +1786,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Trailing A" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Table 3D - 16" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -1795,7 +1795,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Trailing - Split/Reduction" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Table 3D - 17" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -2173,7 +2173,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Table 3D - 59 " category="Unknown 3D" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="18" sizey="19">
+        <table name="Table 3D - 59" category="Ignition Leading" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="18" sizey="19">
             <scaling expression="x * 0.488281--50" to_byte="( x + -50 ) / 0.488281" format="0.00" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -2200,7 +2200,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Table 3D - 62 " category="Unknown 3D" type="3D" storagetype="uint16" endian="big" expression="x" to_byte="x" sizex="8" sizey="19">
+        <table name="Table 3D - 62 " category="Ignition Leading" type="3D" storagetype="uint16" endian="big" expression="x" to_byte="x" sizex="8" sizey="19">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -2587,7 +2587,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Ignition Unknown Minimum" category="Ignition Unknown" type="3D" storagetype="float" endian="big" expression="x" to_byte="x" sizex="4" sizey="3">
+        <table name="Ignition Trailing Minimum" category="Ignition Trailing" type="3D" storagetype="float" endian="big" expression="x" to_byte="x" sizex="4" sizey="3">
             <scaling expression="x * 1-0" to_byte="( x + 0 ) / 1" format="0.00" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -2856,13 +2856,13 @@
         <table name="Ignition Timing Leading Idle Base" storageaddress="0x06D59C">
             <table type="Y Axis" storageaddress="0x06D584" />
         </table>
-        <table name="Ignition Timing Leading Idle Temperature Correction" storageaddress="0x06D5C8">
+        <table name="Ignition Timing Leading Idle Temperature Correction Multiplier" storageaddress="0x06D5C8">
             <table type="Y Axis" storageaddress="0x06D5A4" />
         </table>
-        <table name="Ignition Timing Unknown Idle Base" storageaddress="0x06D5EC">
+        <table name="Ignition Timing Trailing Idle Base" storageaddress="0x06D5EC">
             <table type="Y Axis" storageaddress="0x06D5D4" />
         </table>
-        <table name="Ignition Timing Unknown Idle Temperature Correction" storageaddress="0x06D618">
+        <table name="Ignition Timing Trailing Idle Temperature Correction Multiplier" storageaddress="0x06D618">
             <table type="Y Axis" storageaddress="0x06D5F4" />
         </table>
         <table name="Table 2D - 10 " storageaddress="0x06E4BC">
@@ -4063,7 +4063,7 @@
             <table type="X Axis" storageaddress="0x06D47C" />
             <table type="Y Axis" storageaddress="0x06D4BC" />
         </table>
-        <table name="Ignition Timing Leading Idle Temperature Adder" storageaddress="0x06D668">
+        <table name="Ignition Timing Leading Idle Temperature Compensation" storageaddress="0x06D668">
             <table type="X Axis" storageaddress="0x06D624" />
             <table type="Y Axis" storageaddress="0x06D64C" />
         </table>
@@ -4079,19 +4079,19 @@
             <table type="X Axis" storageaddress="0x06DAB0" />
             <table type="Y Axis" storageaddress="0x06DB00" />
         </table>
-        <table name="Ignition Timing Unknown Idle Temperature Adder" storageaddress="0x06DCF4">
+        <table name="Ignition Timing Trailing Idle Temperature Compensation" storageaddress="0x06DCF4">
             <table type="X Axis" storageaddress="0x06DCB0" />
             <table type="Y Axis" storageaddress="0x06DCD8" />
         </table>
-        <table name="Ignition Unknown Base" storageaddress="0x06DDD4">
+        <table name="Ignition Timing Trailing Base" storageaddress="0x06DDD4">
             <table type="X Axis" storageaddress="0x06DD3C" />
             <table type="Y Axis" storageaddress="0x06DD8C" />
         </table>
-        <table name="Ignition Unknown Advance - Safe Mode" storageaddress="0x06DFD4">
+        <table name="Ignition Timing Trailing Advance - Safe Mode" storageaddress="0x06DFD4">
             <table type="X Axis" storageaddress="0x06DF3C" />
             <table type="Y Axis" storageaddress="0x06DF8C" />
         </table>
-        <table name="Ignition Unknown Advance" storageaddress="0x06E1D4">
+        <table name="Ignition Timing Trailing Advance" storageaddress="0x06E1D4">
             <table type="X Axis" storageaddress="0x06E13C" />
             <table type="Y Axis" storageaddress="0x06E18C" />
         </table>
@@ -4107,15 +4107,15 @@
             <table type="X Axis" storageaddress="0x06EDA4" />
             <table type="Y Axis" storageaddress="0x06EDD4" />
         </table>
-        <table name="Ignition Trailing B" storageaddress="0x06EEEC">
+        <table name="Table 3D - 15" storageaddress="0x06EEEC">
             <table type="X Axis" storageaddress="0x06EE54" />
             <table type="Y Axis" storageaddress="0x06EEA4" />
         </table>
-        <table name="Ignition Trailing A" storageaddress="0x06F0EC">
+        <table name="Table 3D - 16" storageaddress="0x06F0EC">
             <table type="X Axis" storageaddress="0x06F054" />
             <table type="Y Axis" storageaddress="0x06F0A4" />
         </table>
-        <table name="Ignition Trailing - Split/Reduction" storageaddress="0x06F2EC">
+        <table name="Table 3D - 17" storageaddress="0x06F2EC">
             <table type="X Axis" storageaddress="0x06F254" />
             <table type="Y Axis" storageaddress="0x06F2A4" />
         </table>
@@ -4283,7 +4283,7 @@
             <table type="X Axis" storageaddress="0x075F30" />
             <table type="Y Axis" storageaddress="0x075F74" />
         </table>
-        <table name="Table 3D - 59 " storageaddress="0x076144">
+        <table name="Table 3D - 59" storageaddress="0x076144">
             <table type="X Axis" storageaddress="0x0760B0" />
             <table type="Y Axis" storageaddress="0x0760F8" />
         </table>
@@ -4467,7 +4467,7 @@
             <table type="X Axis" storageaddress="0x06E33C" />
             <table type="Y Axis" storageaddress="0x06E34C" />
         </table>
-        <table name="Ignition Unknown Minimum" storageaddress="0x06E3A4">
+        <table name="Ignition Trailing Minimum" storageaddress="0x06E3A4">
             <table type="X Axis" storageaddress="0x06E388" />
             <table type="Y Axis" storageaddress="0x06E398" />
         </table>
@@ -4616,13 +4616,13 @@
         <table name="Ignition Timing Leading Idle Base" storageaddress="0x06DA8C">
             <table type="Y Axis" storageaddress="0x06DA74" />
         </table>
-        <table name="Ignition Timing Leading Idle Temperature Correction" storageaddress="0x06DAB8">
+        <table name="Ignition Timing Leading Idle Temperature Correction Multiplier" storageaddress="0x06DAB8">
             <table type="Y Axis" storageaddress="0x06DA94" />
         </table>
-        <table name="Ignition Timing Unknown Idle Base" storageaddress="0x06DADC">
+        <table name="Ignition Timing Trailing Idle Base" storageaddress="0x06DADC">
             <table type="Y Axis" storageaddress="0x06DAC4" />
         </table>
-        <table name="Ignition Timing Unknown Idle Temperature Correction" storageaddress="0x06DB08">
+        <table name="Ignition Timing Trailing Idle Temperature Correction Multiplier" storageaddress="0x06DB08">
             <table type="Y Axis" storageaddress="0x06DAE4" />
         </table>
         <table name="Table 2D - 10 " storageaddress="0x06E17C">
@@ -5823,7 +5823,7 @@
             <table type="X Axis" storageaddress="0x06D97C" />
             <table type="Y Axis" storageaddress="0x06D9BC" />
         </table>
-        <table name="Ignition Timing Leading Idle Temperature Adder" storageaddress="0x06DB50">
+        <table name="Ignition Timing Leading Idle Temperature Compensation" storageaddress="0x06DB50">
             <table type="X Axis" storageaddress="0x06DB14" />
             <table type="Y Axis" storageaddress="0x06DB34" />
         </table>
@@ -5839,19 +5839,19 @@
             <table type="X Axis" storageaddress="0x000000" />
             <table type="Y Axis" storageaddress="0x000000" />
         </table>
-        <table name="Ignition Timing Unknown Idle Temperature Adder" storageaddress="0x000000">
+        <table name="Ignition Timing Trailing Idle Temperature Compensation" storageaddress="0x000000">
             <table type="X Axis" storageaddress="0x000000" />
             <table type="Y Axis" storageaddress="0x000000" />
         </table>
-        <table name="Ignition Unknown Base" storageaddress="0x06DE94">
+        <table name="Ignition Timing Trailing Base" storageaddress="0x06DE94">
             <table type="X Axis" storageaddress="0x06DDFC" />
             <table type="Y Axis" storageaddress="0x06DE4C" />
         </table>
-        <table name="Ignition Unknown Advance - Safe Mode" storageaddress="0x000000">
+        <table name="Ignition Timing Trailing Advance - Safe Mode" storageaddress="0x000000">
             <table type="X Axis" storageaddress="0x000000" />
             <table type="Y Axis" storageaddress="0x000000" />
         </table>
-        <table name="Ignition Unknown Advance" storageaddress="0x000000">
+        <table name="Ignition Timing Trailing Advance" storageaddress="0x000000">
             <table type="X Axis" storageaddress="0x000000" />
             <table type="Y Axis" storageaddress="0x000000" />
         </table>
@@ -5867,15 +5867,15 @@
             <table type="X Axis" storageaddress="0x06E8E8" />
             <table type="Y Axis" storageaddress="0x06E918" />
         </table>
-        <table name="Ignition Trailing B" storageaddress="0x06EA30">
+        <table name="Table 3D - 15" storageaddress="0x06EA30">
             <table type="X Axis" storageaddress="0x06E998" />
             <table type="Y Axis" storageaddress="0x06E9E8" />
         </table>
-        <table name="Ignition Trailing A" storageaddress="0x06EC30">
+        <table name="Table 3D - 16" storageaddress="0x06EC30">
             <table type="X Axis" storageaddress="0x06EB98" />
             <table type="Y Axis" storageaddress="0x06EBE8" />
         </table>
-        <table name="Ignition Trailing - Split/Reduction" storageaddress="0x06EE30">
+        <table name="Table 3D - 17" storageaddress="0x06EE30">
             <table type="X Axis" storageaddress="0x06ED98" />
             <table type="Y Axis" storageaddress="0x06EDE8" />
         </table>
@@ -6043,7 +6043,7 @@
             <table type="X Axis" storageaddress="0x07569C" />
             <table type="Y Axis" storageaddress="0x0756CC" />
         </table>
-        <table name="Table 3D - 59 " storageaddress="0x07587C">
+        <table name="Table 3D - 59" storageaddress="0x07587C">
             <table type="X Axis" storageaddress="0x0757E8" />
             <table type="Y Axis" storageaddress="0x075830" />
         </table>
@@ -6227,7 +6227,7 @@
             <table type="X Axis" storageaddress="0x06DFFC" />
             <table type="Y Axis" storageaddress="0x06E00C" />
         </table>
-        <table name="Ignition Unknown Minimum" storageaddress="0x06E064">
+        <table name="Ignition Trailing Minimum" storageaddress="0x06E064">
             <table type="X Axis" storageaddress="0x06E048" />
             <table type="Y Axis" storageaddress="0x06E058" />
         </table>
