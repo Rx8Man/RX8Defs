@@ -2942,25 +2942,6 @@
         <table name="DTC c121 Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
         <table name="DTC c155 Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
         <table name="DTC c167 Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#1" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
         <table name="DTC 0300 Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
         <table name="DTC 0300 Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
         <table name="DTC 0030 Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
@@ -3082,25 +3063,6 @@
         <table name="DTC c121 Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
         <table name="DTC c155 Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
         <table name="DTC c167 Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
-        <table name="DTC ffff Enable/Disable#2" category="DTCs" type="1D" storagetype="uint8" endian="big" expression="x" to_byte="x" size="1" />
     </rom>
     <rom base="Rx8Base">
         <romid>
@@ -4982,25 +4944,6 @@
         <table name="DTC c121 Enable/Disable#1" storageaddress="0x07E296" />
         <table name="DTC c155 Enable/Disable#1" storageaddress="0x07E297" />
         <table name="DTC c167 Enable/Disable#1" storageaddress="0x07E298" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E299" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E29A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E29B" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E29C" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E29D" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E29E" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E29F" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A0" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A1" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A2" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A3" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A4" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A5" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A6" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A7" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A8" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2A9" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2AA" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E2AB" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x07E2AC" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x07E2AD" />
         <table name="DTC 0030 Enable/Disable#2" storageaddress="0x07E2AE" />
@@ -5122,25 +5065,6 @@
         <table name="DTC c121 Enable/Disable#2" storageaddress="0x07E322" />
         <table name="DTC c155 Enable/Disable#2" storageaddress="0x07E323" />
         <table name="DTC c167 Enable/Disable#2" storageaddress="0x07E324" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E325" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E326" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E327" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E328" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E329" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E32A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E32B" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E32C" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E32D" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E32E" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E32F" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E330" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E331" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E332" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E333" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E334" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E335" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E336" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E337" />
     </rom>
     <rom base="Rx8Base">
         <romid>
@@ -6685,25 +6609,6 @@
         <table name="DTC c121 Enable/Disable#1" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#1" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#1" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008B" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000000" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000001" />
         <table name="DTC 0030 Enable/Disable#2" storageaddress="0x000002" />
@@ -6825,25 +6730,6 @@
         <table name="DTC c121 Enable/Disable#2" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#2" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#2" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008B" />
     </rom>
     <rom base="Rx8Base">
         <romid>
@@ -8598,25 +8484,6 @@
         <table name="DTC c121 Enable/Disable#1" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#1" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#1" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008B" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000000" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000001" />
         <table name="DTC 0030 Enable/Disable#2" storageaddress="0x000002" />
@@ -8738,25 +8605,6 @@
         <table name="DTC c121 Enable/Disable#2" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#2" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#2" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008B" />
     </rom>
     <rom base="Rx8Base">
         <romid>
@@ -10638,25 +10486,6 @@
         <table name="DTC c121 Enable/Disable#1" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#1" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#1" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008B" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000000" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000001" />
         <table name="DTC 0030 Enable/Disable#2" storageaddress="0x000002" />
@@ -10778,25 +10607,6 @@
         <table name="DTC c121 Enable/Disable#2" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#2" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#2" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008B" />
     </rom>
     <rom base="Rx8Base">
         <romid>
@@ -12317,25 +12127,6 @@
         <table name="DTC c121 Enable/Disable#1" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#1" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#1" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x00008B" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000000" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x000001" />
         <table name="DTC 0030 Enable/Disable#2" storageaddress="0x000002" />
@@ -12457,25 +12248,6 @@
         <table name="DTC c121 Enable/Disable#2" storageaddress="0x000076" />
         <table name="DTC c155 Enable/Disable#2" storageaddress="0x000077" />
         <table name="DTC c167 Enable/Disable#2" storageaddress="0x000078" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000079" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007B" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007C" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007D" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007E" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00007F" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000080" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000081" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000082" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000083" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000084" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000085" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000086" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000087" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000088" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x000089" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x00008B" />
     </rom>
     <rom base="Rx8Base">
         <romid>
@@ -13992,25 +13764,6 @@
         <table name="DTC c121 Enable/Disable#1" storageaddress="0x07E86E" />
         <table name="DTC c155 Enable/Disable#1" storageaddress="0x07E86F" />
         <table name="DTC c167 Enable/Disable#1" storageaddress="0x07E870" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E871" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E872" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E873" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E874" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E875" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E876" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E877" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E878" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E879" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E87A" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E87B" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E87C" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E87D" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E87E" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E87F" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E880" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E881" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E882" />
-        <table name="DTC ffff Enable/Disable#1" storageaddress="0x07E883" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x07E884" />
         <table name="DTC 0300 Enable/Disable#2" storageaddress="0x07E885" />
         <table name="DTC 0030 Enable/Disable#2" storageaddress="0x07E886" />
@@ -14132,24 +13885,5 @@
         <table name="DTC c121 Enable/Disable#2" storageaddress="0x07E8FA" />
         <table name="DTC c155 Enable/Disable#2" storageaddress="0x07E8FB" />
         <table name="DTC c167 Enable/Disable#2" storageaddress="0x07E8FC" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E8FD" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E8FE" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E8FF" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E900" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E901" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E902" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E903" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E904" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E905" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E906" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E907" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E908" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E909" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E90A" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E90B" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E90C" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E90D" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E90E" />
-        <table name="DTC ffff Enable/Disable#2" storageaddress="0x07E90F" />
     </rom>
 </roms>
