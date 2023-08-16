@@ -2038,7 +2038,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Throttle Position To Torque" category="Torque Control" type="3D" storagetype="uint16" endian="big" expression="x" to_byte="x" sizex="14" sizey="20">
+        <table name="Table 3D - 42" category="Misc" type="3D" storagetype="uint16" endian="big" expression="x" to_byte="x" sizex="14" sizey="20">
             <scaling expression="x * 0.007812--256" to_byte="( x + -256 ) / 0.007812" format="0.00" />
             <table name="Throttle Position" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -2209,7 +2209,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Table 3D - 61 " category="Unknown 3D" type="3D" storagetype="uint16" endian="big" expression="x" to_byte="x" sizex="18" sizey="19">
+        <table name="Engine Torque" category="Torque Control" type="3D" storagetype="uint16" endian="big" expression="x" to_byte="x" sizex="18" sizey="19">
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -4513,7 +4513,7 @@
             <table type="X Axis" storageaddress="0x072FDC" />
             <table type="Y Axis" storageaddress="0x073044" />
         </table>
-        <table name="Throttle Position To Torque" storageaddress="0x0734F4">
+        <table name="Table 3D - 42" storageaddress="0x0734F4">
             <table type="X Axis" storageaddress="0x07346C" />
             <table type="Y Axis" storageaddress="0x0734A4" />
         </table>
@@ -4589,7 +4589,7 @@
             <table type="X Axis" storageaddress="0x07629C" />
             <table type="Y Axis" storageaddress="0x0762E4" />
         </table>
-        <table name="Table 3D - 61 " storageaddress="0x076670">
+        <table name="Engine Torque" storageaddress="0x076670">
             <table type="X Axis" storageaddress="0x0765DC" />
             <table type="Y Axis" storageaddress="0x076624" />
         </table>
@@ -6284,7 +6284,7 @@
             <table type="X Axis" storageaddress="0x072A28" />
             <table type="Y Axis" storageaddress="0x072A90" />
         </table>
-        <table name="Throttle Position To Torque" storageaddress="0x072F40">
+        <table name="Table 3D - 42" storageaddress="0x072F40">
             <table type="X Axis" storageaddress="0x072EB8" />
             <table type="Y Axis" storageaddress="0x072EF0" />
         </table>
@@ -6344,7 +6344,7 @@
             <table type="X Axis" storageaddress="0x0759D4" />
             <table type="Y Axis" storageaddress="0x075A1C" />
         </table>
-        <table name="Table 3D - 61 " storageaddress="0x075DA8">
+        <table name="Engine Torque" storageaddress="0x075DA8">
             <table type="X Axis" storageaddress="0x075D14" />
             <table type="Y Axis" storageaddress="0x075D5C" />
         </table>
@@ -8161,7 +8161,7 @@
             <table type="X Axis" storageaddress="0x07279C" />
             <table type="Y Axis" storageaddress="0x072804" />
         </table>
-        <table name="Throttle Position To Torque" storageaddress="0x072CB4">
+        <table name="Table 3D - 42" storageaddress="0x072CB4">
             <table type="X Axis" storageaddress="0x072C2C" />
             <table type="Y Axis" storageaddress="0x072C64" />
         </table>
@@ -8229,7 +8229,7 @@
             <table type="X Axis" storageaddress="0x075EC0" />
             <table type="Y Axis" storageaddress="0x075F08" />
         </table>
-        <table name="Table 3D - 61 " storageaddress="0x076294">
+        <table name="Engine Torque" storageaddress="0x076294">
             <table type="X Axis" storageaddress="0x076200" />
             <table type="Y Axis" storageaddress="0x076248" />
         </table>
@@ -10169,7 +10169,7 @@
             <table type="X Axis" storageaddress="0x072FDC" />
             <table type="Y Axis" storageaddress="0x073044" />
         </table>
-        <table name="Throttle Position To Torque" storageaddress="0x0734F4">
+        <table name="Table 3D - 42" storageaddress="0x0734F4">
             <table type="X Axis" storageaddress="0x07346C" />
             <table type="Y Axis" storageaddress="0x0734A4" />
         </table>
@@ -10245,7 +10245,7 @@
             <table type="X Axis" storageaddress="0x07629C" />
             <table type="Y Axis" storageaddress="0x0762E4" />
         </table>
-        <table name="Table 3D - 61 " storageaddress="0x076670">
+        <table name="Engine Torque" storageaddress="0x076670">
             <table type="X Axis" storageaddress="0x0765DC" />
             <table type="Y Axis" storageaddress="0x076624" />
         </table>
@@ -11920,7 +11920,7 @@
             <table type="X Axis" storageaddress="0x073F6C" />
             <table type="Y Axis" storageaddress="0x073FD4" />
         </table>
-        <table name="Throttle Position To Torque" storageaddress="0x074484">
+        <table name="Table 3D - 42" storageaddress="0x074484">
             <table type="X Axis" storageaddress="0x0743FC" />
             <table type="Y Axis" storageaddress="0x074434" />
         </table>
@@ -13615,7 +13615,7 @@
             <table type="X Axis" storageaddress="0x072D9C" />
             <table type="Y Axis" storageaddress="0x072E04" />
         </table>
-        <table name="Throttle Position To Torque" storageaddress="0x0732B4">
+        <table name="Table 3D - 42" storageaddress="0x0732B4">
             <table type="X Axis" storageaddress="0x07322C" />
             <table type="Y Axis" storageaddress="0x073264" />
         </table>
@@ -13667,7 +13667,7 @@
             <table type="X Axis" storageaddress="0x076558" />
             <table type="Y Axis" storageaddress="0x0765AC" />
         </table>
-        <table name="Table 3D - 61 " storageaddress="0x0769E4">
+        <table name="Engine Torque" storageaddress="0x0769E4">
             <table type="X Axis" storageaddress="0x076944" />
             <table type="Y Axis" storageaddress="0x076998" />
         </table>
