@@ -15,3 +15,8 @@ If you found any of this work useful and would like to support me https://www.bu
 - 
 60E1A300
 - N3K1ES 2005 JDM 4 Port MT
+
+60E1A500
+- N3K1EU Unknown 4 Port, definition terrible as of now
+
+  
