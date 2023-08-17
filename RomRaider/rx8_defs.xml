@@ -26,6 +26,15 @@
         <table name="Closed Loop Fuelling Threshold (Temperature B)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Closed Loop Fuelling Threshold (Unknown B)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Closed Loop Fuelling Threshold (Temperature C)" category="Fuel Target (Closed Loop)" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control Enable Engine Speed" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control Enable Engine Load" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control Enable Coolant Temp" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control - Retard Increment #1" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control - Retard Increment #2" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control - Retard Increment #3" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control - Retard Decrement #1" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control - Retard Decrement #2" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
+        <table name="Knock Control - Retard Decrement #3" category="Knock Control" type="1D" storagetype="float" endian="big" expression="x" to_byte="x" size="1" />
         <table name="Table 2D - 0 " category="Unknown 2D" type="2D" storagetype="uint8" endian="big" sizey="16">
             <scaling expression="x * 2-0" to_byte="( x + 0 ) / 2" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
@@ -3071,9 +3080,30 @@
             <internalidstring>60E0G500</internalidstring>
             <make>Mazda</make>
             <model>RX8</model>
-            <submodel>6 Port 231PS</submodel>
             <memmodel>SH7055</memmodel>
             <filesize>512kb</filesize>
+        </romid>
+        <romid>
+            <xmlid>N3ZHEC</xmlid>
+            <internalidaddress>6CE46</internalidaddress>
+            <internalidstring>N3ZHEC</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>6 Port</submodel>
+            <market>EU</market>
+            <year>2004</year>
+            <transmission>MT</transmission>
+        </romid>
+        <romid>
+            <xmlid>N3ZGEC</xmlid>
+            <internalidaddress>6CE46</internalidaddress>
+            <internalidstring>N3ZGEC</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>4 Port</submodel>
+            <market>EU</market>
+            <year>2004</year>
+            <transmission>MT</transmission>
         </romid>
         <table name="Barometric Pressure Sensor Max ADC Count" storageaddress="0x06CF6C" />
         <table name="Barometric Pressure Sensor Min ADC Count" storageaddress="0x06CF6E" />
@@ -3095,6 +3125,15 @@
         <table name="Closed Loop Fuelling Threshold (Temperature B)" storageaddress="0x071BE0" />
         <table name="Closed Loop Fuelling Threshold (Unknown B)" storageaddress="0x071C5C" />
         <table name="Closed Loop Fuelling Threshold (Temperature C)" storageaddress="0x071C9C" />
+        <table name="Knock Control Enable Engine Speed" storageaddress="0x079848" />
+        <table name="Knock Control Enable Engine Load" storageaddress="0x079844" />
+        <table name="Knock Control Enable Coolant Temp" storageaddress="0x079840" />
+        <table name="Knock Control - Retard Increment #1" storageaddress="0x079890" />
+        <table name="Knock Control - Retard Increment #2" storageaddress="0x079888" />
+        <table name="Knock Control - Retard Increment #3" storageaddress="0x079880" />
+        <table name="Knock Control - Retard Decrement #1" storageaddress="0x07988C" />
+        <table name="Knock Control - Retard Decrement #2" storageaddress="0x079894" />
+        <table name="Knock Control - Retard Decrement #3" storageaddress="0x079884" />
         <table name="Table 2D - 0 " storageaddress="0x06CFE4">
             <table type="Y Axis" storageaddress="0x06CFA4" />
         </table>
@@ -5073,9 +5112,19 @@
             <internalidstring>60E0FC00</internalidstring>
             <make>Mazda</make>
             <model>RX8</model>
-            <submodel>6 Port 231PS</submodel>
             <memmodel>SH7055</memmodel>
             <filesize>512kb</filesize>
+        </romid>
+        <romid>
+            <xmlid>N3Z2EU</xmlid>
+            <internalidaddress>6D346</internalidaddress>
+            <internalidstring>N3Z2EU</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>6 Port</submodel>
+            <market>US</market>
+            <year>2004</year>
+            <transmission>MT</transmission>
         </romid>
         <table name="Barometric Pressure Sensor Max ADC Count" storageaddress="0x06D46C" />
         <table name="Barometric Pressure Sensor Min ADC Count" storageaddress="0x06D46E" />
@@ -6738,9 +6787,19 @@
             <internalidstring>60E1D300</internalidstring>
             <make>Mazda</make>
             <model>RX8</model>
-            <submodel>6 Port 231PS</submodel>
             <memmodel>SH7055</memmodel>
             <filesize>512kb</filesize>
+        </romid>
+        <romid>
+            <xmlid>N3J1EL</xmlid>
+            <internalidaddress>6C046</internalidaddress>
+            <internalidstring>N3J1EL</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>6 Port</submodel>
+            <market></market>
+            <year></year>
+            <transmission>MT</transmission>
         </romid>
         <table name="Barometric Pressure Sensor Max ADC Count" storageaddress="0x06C16C" />
         <table name="Barometric Pressure Sensor Min ADC Count" storageaddress="0x06C16E" />
@@ -8613,9 +8672,19 @@
             <internalidstring>60E1D400</internalidstring>
             <make>Mazda</make>
             <model>RX8</model>
-            <submodel>6 Port 231PS</submodel>
             <memmodel>SH7055</memmodel>
             <filesize>512kb</filesize>
+        </romid>
+        <romid>
+            <xmlid>N3J1EM</xmlid>
+            <internalidaddress>6CE46</internalidaddress>
+            <internalidstring>N3J1EM</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>6 Port</submodel>
+            <market></market>
+            <year></year>
+            <transmission>MT</transmission>
         </romid>
         <table name="Barometric Pressure Sensor Max ADC Count" storageaddress="0x06CF6C" />
         <table name="Barometric Pressure Sensor Min ADC Count" storageaddress="0x06CF6E" />
@@ -10615,9 +10684,19 @@
             <internalidstring>60E1A500</internalidstring>
             <make>Mazda</make>
             <model>RX8</model>
-            <submodel>6 Port 231PS</submodel>
             <memmodel>SH7055</memmodel>
             <filesize>512kb</filesize>
+        </romid>
+        <romid>
+            <xmlid>N3K1EU</xmlid>
+            <internalidaddress>6C646</internalidaddress>
+            <internalidstring>N3K1EU</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>4 Port</submodel>
+            <market></market>
+            <year></year>
+            <transmission></transmission>
         </romid>
         <table name="Barometric Pressure Sensor Min Voltage" storageaddress="0x07C008" />
         <table name="Barometric Pressure Sensor Max Voltage" storageaddress="0x07C00C" />
@@ -12256,9 +12335,19 @@
             <internalidstring>60E1A300</internalidstring>
             <make>Mazda</make>
             <model>RX8</model>
-            <submodel>6 Port 231PS</submodel>
             <memmodel>SH7055</memmodel>
             <filesize>512kb</filesize>
+        </romid>
+        <romid>
+            <xmlid>N3K1ES</xmlid>
+            <internalidaddress>6C646</internalidaddress>
+            <internalidstring>N3K1ES</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>4 Port</submodel>
+            <market>JDM</market>
+            <year>2005</year>
+            <transmission>MT</transmission>
         </romid>
         <table name="Barometric Pressure Sensor Max ADC Count" storageaddress="0x06C76C" />
         <table name="Barometric Pressure Sensor Min ADC Count" storageaddress="0x06C76E" />
@@ -13893,9 +13982,19 @@
             <internalidstring>60E1B900</internalidstring>
             <make>Mazda</make>
             <model>RX8</model>
-            <submodel>6 Port 231PS</submodel>
             <memmodel>SH7055</memmodel>
             <filesize>512kb</filesize>
+        </romid>
+        <romid>
+            <xmlid>N3ZBEH</xmlid>
+            <internalidaddress>6D346</internalidaddress>
+            <internalidstring>N3ZBEH</internalidstring>
+            <make>Mazda</make>
+            <model>RX8</model>
+            <submodel>6 Port</submodel>
+            <market>US</market>
+            <year></year>
+            <transmission>MT</transmission>
         </romid>
         <table name="Barometric Pressure Sensor Max ADC Count" storageaddress="0x06D46C" />
         <table name="Barometric Pressure Sensor Min ADC Count" storageaddress="0x06D46E" />
