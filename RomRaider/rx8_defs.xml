@@ -767,7 +767,7 @@
             <scaling expression="x * 0.007812-0" to_byte="( x + 0 ) / 0.007812" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Table 2D - 183 " category="Unknown 2D" type="2D" storagetype="uint16" endian="big" sizey="9">
+        <table name="SSV Switchpoint " category="Outputs" type="2D" storagetype="uint16" endian="big" sizey="9">
             <scaling expression="x * 1-0" to_byte="( x + 0 ) / 1" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -3683,7 +3683,7 @@
         <table name="Table 2D - 182 " storageaddress="0x0785F4">
             <table type="Y Axis" storageaddress="0x0785B0" />
         </table>
-        <table name="Table 2D - 183 " storageaddress="0x07863C">
+        <table name="SSV Switchpoint " storageaddress="0x07863C">
             <table type="Y Axis" storageaddress="0x078618" />
         </table>
         <table name="Table 2D - 184 " storageaddress="0x078A00">
@@ -5584,7 +5584,7 @@
         <table name="Table 2D - 182 " storageaddress="0x0773B8">
             <table type="Y Axis" storageaddress="0x077374" />
         </table>
-        <table name="Table 2D - 183 " storageaddress="0x077400">
+        <table name="SSV Switchpoint " storageaddress="0x077400">
             <table type="Y Axis" storageaddress="0x0773DC" />
         </table>
         <table name="Table 2D - 188 " storageaddress="0x0777C4">
@@ -7343,7 +7343,7 @@
         <table name="Table 2D - 182 " storageaddress="0x0784C8">
             <table type="Y Axis" storageaddress="0x078484" />
         </table>
-        <table name="Table 2D - 183 " storageaddress="0x078510">
+        <table name="SSV Switchpoint " storageaddress="0x078510">
             <table type="Y Axis" storageaddress="0x0784EC" />
         </table>
         <table name="Table 2D - 184 " storageaddress="0x07890C">
@@ -9255,7 +9255,7 @@
         <table name="Table 2D - 182 " storageaddress="0x0785F4">
             <table type="Y Axis" storageaddress="0x0785B0" />
         </table>
-        <table name="Table 2D - 183 " storageaddress="0x07863C">
+        <table name="SSV Switchpoint " storageaddress="0x07863C">
             <table type="Y Axis" storageaddress="0x078618" />
         </table>
         <table name="Table 2D - 184 " storageaddress="0x078A00">
@@ -11249,7 +11249,7 @@
         <table name="Table 2D - 182 " storageaddress="0x076F1C">
             <table type="Y Axis" storageaddress="0x076ED8" />
         </table>
-        <table name="Table 2D - 183 " storageaddress="0x076F64">
+        <table name="SSV Switchpoint " storageaddress="0x076F64">
             <table type="Y Axis" storageaddress="0x076F40" />
         </table>
         <table name="Table 2D - 188 " storageaddress="0x077328">
@@ -13050,7 +13050,7 @@
         <table name="Table 2D - 182 " storageaddress="0x078380">
             <table type="Y Axis" storageaddress="0x07833C" />
         </table>
-        <table name="Table 2D - 183 " storageaddress="0x0783C8">
+        <table name="SSV Switchpoint " storageaddress="0x0783C8">
             <table type="Y Axis" storageaddress="0x0783A4" />
         </table>
         <table name="Table 2D - 188 " storageaddress="0x0787C4">
@@ -14634,7 +14634,7 @@
         <table name="Table 2D - 182 " storageaddress="0x0773B8">
             <table type="Y Axis" storageaddress="0x077374" />
         </table>
-        <table name="Table 2D - 183 " storageaddress="0x077400">
+        <table name="SSV Switchpoint " storageaddress="0x077400">
             <table type="Y Axis" storageaddress="0x0773DC" />
         </table>
         <table name="Table 2D - 188 " storageaddress="0x0777C4">
