@@ -10,6 +10,9 @@ If you found any of this work useful and would like to support me https://www.bu
 - NZ3HEC 2004 EU 6 Port MT
 - N3ZGEC 2004 EU 4 Port MT
 
+60E0FB00
+- N3Z2ET 2004 US 6 Port MT
+  
 60E0FC00
 - N3Z2EU 2004 US 6 Port MT
 - 
@@ -17,6 +20,15 @@ If you found any of this work useful and would like to support me https://www.bu
 - N3K1ES 2005 JDM 4 Port MT
 
 60E1A500
-- N3K1EU Unknown 4 Port
+- N3K1EU 2004 JDM 4 Port
+- N3H3EV 2004 JDM 6 Port
 
+60E1B900
+- N3ZBEH 6 Port US MT
+
+60E1D300
+- N3J1EL 6 Port MT
+
+60E1D400
+- N3J1EM 6 Port MT
   
