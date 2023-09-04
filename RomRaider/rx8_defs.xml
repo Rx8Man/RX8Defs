@@ -10695,7 +10695,7 @@
             <model>RX8</model>
             <submodel>4 Port</submodel>
             <market>JDM</market>
-            <year></year>
+            <year>2004</year>
             <transmission></transmission>
         </romid>
         <romid>
@@ -10706,7 +10706,7 @@
             <model>RX8</model>
             <submodel>6 Port</submodel>
             <market>JDM</market>
-            <year></year>
+            <year>2004</year>
             <transmission>MT</transmission>
         </romid>
         <table name="Barometric Pressure Sensor Max ADC Count" storageaddress="0x06C76C" />
