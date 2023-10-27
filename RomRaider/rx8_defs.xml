@@ -1427,7 +1427,7 @@
             <scaling expression="(x * 1 ) + 0" to_byte="(x - 0) / 1" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Table 2D - 348 Check DataType" category="Feul Injection" type="2D" storagetype="uint8" endian="big" sizey="3">
+        <table name="Table 2D - 348 Check DataType" category="Fuel Injection" type="2D" storagetype="uint8" endian="big" sizey="3">
             <scaling expression="(x * 1 ) + 0" to_byte="(x - 0) / 1" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
