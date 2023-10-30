@@ -1095,15 +1095,15 @@
             <scaling expression="(x * 0.001 ) + 0" to_byte="(x - 0) / 0.001" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Table 2D - 265 " category="Unknown 2D" type="2D" storagetype="uint16" endian="big" sizey="25">
+        <table name="Table 2D - 265 " category="Catalyst Temperature" type="2D" storagetype="uint16" endian="big" sizey="25">
             <scaling expression="(x * 0.001 ) + 0" to_byte="(x - 0) / 0.001" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Table 2D - 266 " category="Unknown 2D" type="2D" storagetype="uint16" endian="big" sizey="25">
+        <table name="Table 2D - 266 " category="Catalyst Temperature" type="2D" storagetype="uint16" endian="big" sizey="25">
             <scaling expression="(x * 0.001 ) + 0" to_byte="(x - 0) / 0.001" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
-        <table name="Table 2D - 267 " category="Unknown 2D" type="2D" storagetype="uint16" endian="big" sizey="8">
+        <table name="Table 2D - 267 " category="Catalyst Temperature" type="2D" storagetype="uint16" endian="big" sizey="8">
             <scaling expression="(x * 0.001 ) + 0" to_byte="(x - 0) / 0.001" format="0.00" />
             <table name="Unknown" type="Y Axis" storagetype="float" endian="big" expression="x" to_byte="x" />
         </table>
@@ -1822,7 +1822,7 @@
                 <scaling expression="x" to_byte="x" />
             </table>
         </table>
-        <table name="Table 3D - 17" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
+        <table name="Ignition Minimum Leading/Trailing split" category="Ignition Trailing" type="3D" storagetype="uint8" endian="big" expression="x" to_byte="x" sizex="20" sizey="18">
             <scaling expression="x*0.5-50" to_byte="(x+50)/.5" format="0.000" />
             <table name="Value" type="X Axis" storagetype="float" endian="big">
                 <scaling expression="x" to_byte="x" />
@@ -4414,7 +4414,7 @@
             <table type="X Axis" storageaddress="0x06F054" />
             <table type="Y Axis" storageaddress="0x06F0A4" />
         </table>
-        <table name="Table 3D - 17" storageaddress="0x06F2EC">
+        <table name="Ignition Minimum Leading/Trailing split" storageaddress="0x06F2EC">
             <table type="X Axis" storageaddress="0x06F254" />
             <table type="Y Axis" storageaddress="0x06F2A4" />
         </table>
@@ -6173,7 +6173,7 @@
             <table type="X Axis" storageaddress="0x06EB98" />
             <table type="Y Axis" storageaddress="0x06EBE8" />
         </table>
-        <table name="Table 3D - 17" storageaddress="0x06EE30">
+        <table name="Ignition Minimum Leading/Trailing split" storageaddress="0x06EE30">
             <table type="X Axis" storageaddress="0x06ED98" />
             <table type="Y Axis" storageaddress="0x06EDE8" />
         </table>
@@ -8006,7 +8006,7 @@
             <table type="X Axis" storageaddress="0x06E4E0" />
             <table type="Y Axis" storageaddress="0x06E53C" />
         </table>
-        <table name="Table 3D - 17" storageaddress="0x06E790">
+        <table name="Ignition Minimum Leading/Trailing split" storageaddress="0x06E790">
             <table type="X Axis" storageaddress="0x06E6EC" />
             <table type="Y Axis" storageaddress="0x06E748" />
         </table>
@@ -9986,7 +9986,7 @@
             <table type="X Axis" storageaddress="0x06F054" />
             <table type="Y Axis" storageaddress="0x06F0A4" />
         </table>
-        <table name="Table 3D - 17" storageaddress="0x06F2EC">
+        <table name="Ignition Minimum Leading/Trailing split" storageaddress="0x06F2EC">
             <table type="X Axis" storageaddress="0x06F254" />
             <table type="Y Axis" storageaddress="0x06F2A4" />
         </table>
@@ -11884,7 +11884,7 @@
             <table type="X Axis" storageaddress="0x06E0C4" />
             <table type="Y Axis" storageaddress="0x06E114" />
         </table>
-        <table name="Table 3D - 17" storageaddress="0x06E35C">
+        <table name="Ignition Minimum Leading/Trailing split" storageaddress="0x06E35C">
             <table type="X Axis" storageaddress="0x06E2C4" />
             <table type="Y Axis" storageaddress="0x06E314" />
         </table>
@@ -13587,7 +13587,7 @@
             <table type="X Axis" storageaddress="0x06E830" />
             <table type="Y Axis" storageaddress="0x06E860" />
         </table>
-        <table name="Table 3D - 17" storageaddress="0x06ED90">
+        <table name="Ignition Minimum Leading/Trailing split" storageaddress="0x06ED90">
             <table type="X Axis" storageaddress="0x06ECF8" />
             <table type="Y Axis" storageaddress="0x06ED48" />
         </table>
@@ -15230,7 +15230,7 @@
             <table type="X Axis" storageaddress="0x06EB98" />
             <table type="Y Axis" storageaddress="0x06EBE8" />
         </table>
-        <table name="Table 3D - 17" storageaddress="0x06EE30">
+        <table name="Ignition Minimum Leading/Trailing split" storageaddress="0x06EE30">
             <table type="X Axis" storageaddress="0x06ED98" />
             <table type="Y Axis" storageaddress="0x06EDE8" />
         </table>
